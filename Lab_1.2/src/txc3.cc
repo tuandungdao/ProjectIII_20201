@@ -5,7 +5,7 @@
  *      Author: USER
  */
 
-#include <stdio.h>
+//#include <stdio.h>
 #include <string.h>
 #include <omnetpp.h>
 
@@ -36,11 +36,11 @@ void Txc3::initialize()
     }
 
     if (strcmp("tic", getName()) == 0)
-       {
-           EV << "Sending initial message\n";
-           cMessage *msg = new cMessage("tictocMsg");
-           send(msg, "out");
-       }
+   {
+       EV << "Sending initial message\n";
+       cMessage *msg = new cMessage("tictocMsg");
+       send(msg, "out");
+   }
 }
 
 void Txc3::handleMessage(cMessage *msg)

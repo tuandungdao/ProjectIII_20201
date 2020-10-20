@@ -21,7 +21,7 @@ package lab_1_2;
 simple Txc2
 {
     parameters:
-        @display("i=block/routing"); // add a default icon
+        @display("i=block/routing"); 
     gates:
         input in;
         output out;
