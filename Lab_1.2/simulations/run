@@ -1,4 +1,0 @@
-#!/bin/sh
-cd `dirname $0`
-../src/lab_1_2 -n .:../src $*
-# for shared lib, use: opp_run -l ../src/lab_1_2 -n .:../src $*
